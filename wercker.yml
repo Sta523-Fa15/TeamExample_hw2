@@ -19,4 +19,3 @@ build:
           make clean
           Rscript -e "source('https://raw.githubusercontent.com/Sta523-Fa15/Homework/master/hw2/hw2_whitelist.R')"
           
-          
