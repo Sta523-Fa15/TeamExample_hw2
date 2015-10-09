@@ -2,7 +2,7 @@ box: rocker/hadleyverse
 
 build:
   steps:
-    - script
+    - script:
         name: Update Packages
         code: |
           Rscript -e "update.packages(ask = FALSE)"
