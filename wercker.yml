@@ -2,6 +2,10 @@ box: rocker/hadleyverse
 
 build:
   steps:
+    - script
+        name: Update Packages
+        code: |
+          Rscript -e "update.packages(ask = FALSE)"
     - script:
         name: Check for allowed files
         code: |
