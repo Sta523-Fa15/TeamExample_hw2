@@ -33,4 +33,8 @@ get_state_hotels = function(html, states, base_url, out_dir = "data/lq/")
   }
 }
 
-get_state_hotels(listings, state, base_url)
+x = read.csv("lq_states.csv",header=FALSE)
+x
+str(x)
+
+get_state_hotels(listings, x[,1], base_url)
