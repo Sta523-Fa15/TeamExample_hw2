@@ -38,3 +38,5 @@ x
 str(x)
 
 get_state_hotels(listings, x[,1], base_url)
+
+dir("data/lq/")
